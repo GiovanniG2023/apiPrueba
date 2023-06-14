@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "build": "netlify-lambda build src"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "google-auth-library": "^6.1.6",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.15",
+    "netlify-lambda": "^2.0.16",
     "uuid": "^8.3.2"
   }
 }
